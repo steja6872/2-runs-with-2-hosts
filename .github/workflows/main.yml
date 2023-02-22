@@ -6,7 +6,7 @@ jobs:
 
   job1:
     name: Factorial Program
-    runs-on: self-hosted
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v1
@@ -20,7 +20,7 @@ jobs:
           java factorial
   job2:
     name: Prime Program
-    runs-on: windows-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v1
